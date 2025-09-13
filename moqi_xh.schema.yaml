@@ -74,12 +74,12 @@ speller:
     # - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
     # 模糊音 可选择性开启
-    # - derive/^z([a-z])/v$1/
-    # - derive/^c([a-z])/i$1/
-    # - derive/^s([a-z])/u$1/
-    # - derive/^v([a-z])/z$1/
-    # - derive/^i([a-z])/c$1/
-    # - derive/^u([a-z])/s$1/
+    - derive/^z([a-z])/v$1/
+    - derive/^c([a-z])/i$1/
+    - derive/^s([a-z])/u$1/
+    - derive/^v([a-z])/z$1/
+    - derive/^i([a-z])/c$1/
+    - derive/^u([a-z])/s$1/
 
     # - derive/^([jqxy])u/$1v/ # 开启jv=ju的模式
 
